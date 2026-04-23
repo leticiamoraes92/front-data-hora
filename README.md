@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 💻 Front-end — Data e Hora
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Descrição do Projeto
+Este projeto consiste no desenvolvimento de uma aplicação **front-end** responsável por consumir uma API REST e exibir, em tempo real, a **data e hora atual** do servidor.
 
-## Available Scripts
+A aplicação foi criada com foco na integração com o back-end, permitindo visualizar na interface os dados retornados pela API.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🎯 Objetivo da Atividade
+- Consumir uma API REST desenvolvida em Express.js  
+- Exibir os dados (data e hora) de forma dinâmica na tela  
+- Praticar integração entre front-end e back-end  
+- Realizar deploy da aplicação em ambiente online  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Funcionalidades
+- Requisição HTTP para a API  
+- Exibição da data atual  
+- Exibição da hora atual  
+- Atualização dinâmica na interface  
+- Interface simples e intuitiva  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔗 Integração com API
+A aplicação consome o endpoint:
 
-### `npm run build`
+- `GET /data-hora`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A API retorna os dados em formato JSON, que são tratados e exibidos na tela.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tecnologias Utilizadas
+- HTML  
+- CSS  
+- JavaScript  
+- Fetch API  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ☁️ Deploy
+Aplicação publicada na plataforma **Vercel**, permitindo acesso online.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🔗 Acesse:  
+https://front-data-hora.vercel.app/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📂 Repositório Back-end (API)
+https://github.com/leticiamoraes92/API_programa-aoWeb  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ✅ Resultado
+Aplicação front-end funcional que:
+- Consome dados de uma API REST  
+- Exibe informações em tempo real  
+- Está disponível online  
+- Demonstra integração completa entre front-end e back-end  
